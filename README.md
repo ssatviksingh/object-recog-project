@@ -19,23 +19,7 @@ The goal of this research is to compare and analyze the performance of various c
 
 ## 🧱 **Project Structure**
 
-object-recog-project/
-│
-├── src/
-│ ├── train.py # Training + validation pipeline
-│ ├── datasets.py # CIFAR-10 dataloaders and preprocessing
-│ ├── models/
-│ │ ├── resnet.py # ResNet model
-│ │ ├── efficientnet.py # EfficientNet model
-│ │ ├── convnext.py # ConvNeXt model
-│ │ └── vit.py # Vision Transformer (ViT)
-│ ├── utils.py # Accuracy, checkpoint, seed, etc.
-│ ├── config.py # Directory paths and constants
-│ └── plot_results.py # Accuracy & loss trend visualization
-│
-├── checkpoints/ # Saved model weights per epoch
-├── results/ # Evaluation results and comparison plots
-└── README.md
+<pre> ```plaintext object-recog-project/ │ ├── src/ │ ├── train.py # Training + validation pipeline │ ├── datasets.py # CIFAR-10 dataloaders and preprocessing │ ├── models/ │ │ ├── resnet.py # ResNet model │ │ ├── efficientnet.py # EfficientNet model │ │ ├── convnext.py # ConvNeXt model │ │ └── vit.py # Vision Transformer (ViT) │ ├── utils.py # Accuracy, checkpoint, seed, etc. │ ├── config.py # Directory paths and constants │ └── plot_results.py # Accuracy & loss trend visualization │ ├── checkpoints/ # Saved model weights per epoch ├── results/ # Evaluation results and comparison plots └── README.md ``` </pre>
 
 ---
 
