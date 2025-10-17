@@ -1,0 +1,11 @@
+torch>=1.11
+torchvision
+timm
+albumentations
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+streamlit
+wandb
